@@ -1,0 +1,35 @@
+.main__container {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+.image-row h4 {
+    color: #666;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    cursor: pointer;
+}
+.image-row img {
+    margin: 8px 0;
+  border-radius: 50%;
+  border: 2px solid #E8A0BF;
+  background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white);
+  background-position: center center, left top, right top, left bottom, right bottom;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+  /* transform: rotate(30deg); */
+  cursor: pointer;
+
+}

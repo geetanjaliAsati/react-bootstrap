@@ -1,0 +1,89 @@
+.bestseller-main-container {
+    padding: 1.5rem 1.5rem;
+}
+.icon__heading_container .icon--img {
+    width: 40px;
+    height: 40px;
+    
+}
+.icon__heading_container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.image_text_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image_div {
+    position: relative;
+    /* text-align: center; */
+  
+}
+.discount {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #16213E;
+    background-color: #FFDE00;
+    border-radius: 5px;
+    padding: 2px 7px;
+    font-size: 0.87rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.image_div img {
+    width: 275px;
+    height: 355px;
+    background-color: #EEEEEE;
+}
+.bestseller_details h3{
+    /* text-align: center; */
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    
+}
+.image_div:hover {
+    /* border-bottom: 1px solid #999; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.bestseller_details button{
+    margin-top: 0.9rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #357C3C;
+    color: white;
+    outline: none;
+    padding: 0.4rem 0;
+    border: transparent;
+    width: 100%;
+    border-radius: 2px;
+
+}
+.button:hover {
+    color: #3e8e41;
+    background-color: white;
+    outline: 2px solid #3e8e41;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+
+}
+.img-hover-zoom {
+    height: 360px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
